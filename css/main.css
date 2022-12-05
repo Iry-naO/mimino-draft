@@ -33,7 +33,6 @@
 }
 @media screen and (min-width: 414px) {
   .menu__container {
-    width: 384px;
     margin-bottom: 24px;
   }
 }
@@ -215,5 +214,17 @@
 @media screen and (min-width: 1280px) {
   .menu__price {
     font-size: 16px;
+  }
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .button {
+    margin: 0 0 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
